@@ -1,0 +1,5 @@
+hidden_size_list: '[512]'
+learning_rate: 0.001
+message_dropout: 0.2
+node_dropout: 0.2
+reg_weight: 1.0e-05

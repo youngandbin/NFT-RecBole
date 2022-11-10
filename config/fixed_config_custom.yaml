@@ -1,0 +1,65 @@
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+USER_ID_FIELD: user_id
+additional_feat_suffix:
+- itememb_img
+alias_of_item_id:
+- iid
+checkpoint_dir: saved/
+data_path: dataset/collections/
+epochs: 50
+eval_args:
+  group_by: user
+  mode: pop100
+  order: RO
+  split:
+    RS:
+    - 8
+    - 1
+    - 1
+eval_batch_size: 4096
+eval_step: 1
+field_separator: "\t"
+learner: adam
+learning_rate: 0.1
+load_col:
+  inter:
+  - user_id
+  - item_id
+  itememb_img:
+  - iid
+  - item_emb
+log_wandb: false
+loss_decimal_place: 4
+metric_decimal_place: 4
+metrics:
+- Recall
+- MRR
+- NDCG
+- Hit
+- MAP
+- Precision
+- GAUC
+preload_weight:
+  iid: item_emb
+reproducibility: true
+save_dataset: false
+seed: 0
+seq_separator: ' '
+show_progress: true
+stopping_step: 15000000000000000000000000000000
+topk:
+- 1
+- 2
+- 5
+- 10
+- 20
+- 50
+train_batch_size: 2048
+train_neg_sample_args:
+  candidate_num: 0
+  distribution: popularity
+  dynamic: false
+  sample_num: 5
+user_inter_num_interval: '[0,inf)'
+valid_metric: MRR@1

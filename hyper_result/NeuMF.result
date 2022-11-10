@@ -1,0 +1,36 @@
+dropout_prob:0.0, mlp_hidden_size:[64,32,16]
+Valid result:
+recall@10 : 0.2337    mrr@10 : 0.1189    ndcg@10 : 0.1443    hit@10 : 0.2399    map@10 : 0.1149    precision@10 : 0.0263    gauc : 0.63
+Test result:
+recall@10 : 0.1842    mrr@10 : 0.0889    ndcg@10 : 0.1106    hit@10 : 0.1879    map@10 : 0.0872    precision@10 : 0.0201    gauc : 0.5947
+
+dropout_prob:0.4, mlp_hidden_size:[32,16,8]
+Valid result:
+recall@10 : 0.2314    mrr@10 : 0.1164    ndcg@10 : 0.1421    hit@10 : 0.2405    map@10 : 0.1126    precision@10 : 0.0262    gauc : 0.6372
+Test result:
+recall@10 : 0.1856    mrr@10 : 0.0874    ndcg@10 : 0.1093    hit@10 : 0.1902    map@10 : 0.0849    precision@10 : 0.0202    gauc : 0.6029
+
+dropout_prob:0.0, mlp_hidden_size:[32,16,8]
+Valid result:
+recall@10 : 0.2282    mrr@10 : 0.1183    ndcg@10 : 0.1423    hit@10 : 0.2354    map@10 : 0.114    precision@10 : 0.0258    gauc : 0.6353
+Test result:
+recall@10 : 0.1787    mrr@10 : 0.0846    ndcg@10 : 0.1057    hit@10 : 0.1825    map@10 : 0.0825    precision@10 : 0.0196    gauc : 0.5969
+
+dropout_prob:0.2, mlp_hidden_size:[32,16,8]
+Valid result:
+recall@10 : 0.2172    mrr@10 : 0.1113    ndcg@10 : 0.1345    hit@10 : 0.2235    map@10 : 0.1074    precision@10 : 0.0245    gauc : 0.6343
+Test result:
+recall@10 : 0.176    mrr@10 : 0.0833    ndcg@10 : 0.1039    hit@10 : 0.1803    map@10 : 0.0809    precision@10 : 0.0192    gauc : 0.598
+
+dropout_prob:0.2, mlp_hidden_size:[64,32,16]
+Valid result:
+recall@10 : 0.2291    mrr@10 : 0.1166    ndcg@10 : 0.141    hit@10 : 0.2374    map@10 : 0.1119    precision@10 : 0.0262    gauc : 0.6311
+Test result:
+recall@10 : 0.1854    mrr@10 : 0.0875    ndcg@10 : 0.1098    hit@10 : 0.1891    map@10 : 0.0858    precision@10 : 0.0203    gauc : 0.5931
+
+dropout_prob:0.4, mlp_hidden_size:[64,32,16]
+Valid result:
+recall@10 : 0.2287    mrr@10 : 0.1188    ndcg@10 : 0.1432    hit@10 : 0.2358    map@10 : 0.115    precision@10 : 0.0259    gauc : 0.6242
+Test result:
+recall@10 : 0.1894    mrr@10 : 0.091    ndcg@10 : 0.1133    hit@10 : 0.1928    map@10 : 0.0892    precision@10 : 0.0206    gauc : 0.5904
+

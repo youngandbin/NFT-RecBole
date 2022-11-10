@@ -1,0 +1,79 @@
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+USER_ID_FIELD: user_id
+additional_feat_suffix:
+- itememb_img
+- itememb_txt
+- itememb_prices
+alias_of_item_id:
+- iid_img
+- iid_txt
+- iid_prices
+checkpoint_dir: saved/
+data_path: dataset/collections/
+epochs: 50
+eval_args:
+  group_by: user
+  mode: pop100
+  order: RO
+  split:
+    RS:
+    - 8
+    - 1
+    - 1
+eval_batch_size: 4096
+eval_step: 1
+field_separator: "\t"
+img: null
+learner: adam
+learning_rate: 0.001
+load_col:
+  inter:
+  - user_id
+  - item_id
+  itememb_img:
+  - iid_img
+  - item_emb_img
+  itememb_prices:
+  - iid_prices
+  - item_emb_prices
+  itememb_txt:
+  - iid_txt
+  - item_emb_txt
+log_wandb: true
+loss_decimal_place: 4
+metric_decimal_place: 4
+metrics:
+- Recall
+- MRR
+- NDCG
+- Hit
+- MAP
+- Precision
+- GAUC
+preload_weight:
+  iid_img: item_emb_img
+  iid_prices: item_emb_prices
+  iid_txt: item_emb_txt
+price: null
+reproducibility: true
+save_dataset: false
+seed: 0
+seq_separator: ' '
+show_progress: true
+stopping_step: 50
+topk:
+- 1
+- 2
+- 5
+- 10
+- 20
+train_batch_size: 2048
+train_neg_sample_args:
+  candidate_num: 0
+  distribution: popularity
+  dynamic: false
+  sample_num: 5
+txt: true
+user_inter_num_interval: '[3,inf)'
+valid_metric: NDCG@20

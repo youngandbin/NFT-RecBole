@@ -1,0 +1,54 @@
+item_layers_dim:[64,32], user_layers_dim:[64,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[64,32], user_layers_dim:[128,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[64,64], user_layers_dim:[128,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[128,64], user_layers_dim:[64,32]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[128,64], user_layers_dim:[128,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[64,32], user_layers_dim:[64,32]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[64,64], user_layers_dim:[64,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[64,64], user_layers_dim:[64,32]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
+item_layers_dim:[128,64], user_layers_dim:[64,64]
+Valid result:
+recall@10 : 0.0869    mrr@10 : 0.0277    ndcg@10 : 0.041    hit@10 : 0.0891    map@10 : 0.027    precision@10 : 0.0091    gauc : 0.5
+Test result:
+recall@10 : 0.0783    mrr@10 : 0.0227    ndcg@10 : 0.0353    hit@10 : 0.0795    map@10 : 0.0223    precision@10 : 0.0081    gauc : 0.5
+
