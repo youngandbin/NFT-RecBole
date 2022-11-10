@@ -8,7 +8,7 @@
 ### dataset
 - benchmarks
   - 벤치마크 데이터셋이 들어 있습니다
-- **collections**
+- **collections (메인)**
   - 콜렉션 별로 .inter 파일과 .itememb 파일이 들어 있습니다
   - .inter 파일은 user-item interaction을 나타내고, .itememb 파일은 item embedding을 나타냅니다
 - csr_matrix
@@ -41,10 +41,10 @@
 ### 0_Data_preprocessing.ipynb
 - input data 파일을 만들기 위한 코드
 
-### 1_Baseline.py
+### 1_Baseline.py (메인)
 - RecBole에 내장되어 있는 모델로 실험하기 위한 코드
 
-### 2_Pretrain.py
+### 2_Pretrain.py (메인)
 - Customized model로 실험하기 위한 코드
 
 ### newmodel.py
